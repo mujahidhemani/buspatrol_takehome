@@ -8,8 +8,8 @@
 1. Click on the task definiions
 1. Select the `buspatrol` task definition and click Deploy > Run Task
 1. Running the ECS Task: 
-  1. Under Environment, choose Existing cluster and select the `buspatrol` cluster
-  1. Under Networking, select the `buspatrol-vpc`
-  1. Under Command override, replace `test123` with desired bucket name
-  1. Click create to run the task
+    1. Under Environment, choose Existing cluster and select the `buspatrol` cluster
+    2. Under Networking, select the `buspatrol-vpc`
+    3. Under Command override, replace `test123` with desired bucket name
+    4. Click create to run the task
 1. Under tasks, click the newly created task, from there you can click the logs tab to monitor the progress
