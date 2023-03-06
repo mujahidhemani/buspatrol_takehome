@@ -4,12 +4,12 @@
 
 # Run on ECS
 1. Deploy the terraform code: `terraform apply`
-2. Login to ECS console.
-3. Click on the task definiions
-4. Select the `buspatrol` task definition and click Deploy > Run Task
-5. 
-  a. Under Environment, choose Existing cluster and select the `buspatrol` cluster
-  b. Under Networking, select the `buspatrol-vpc`
-  c. Under Command override, replace `test123` with desired bucket name
-  d. Click create to run the task
-6. Under tasks, click the newly created task, from there you can click the logs tab to monitor the progress
+1. Login to ECS console.
+1. Click on the task definiions
+1. Select the `buspatrol` task definition and click Deploy > Run Task
+1. Running the ECS Task: 
+  1. Under Environment, choose Existing cluster and select the `buspatrol` cluster
+  1. Under Networking, select the `buspatrol-vpc`
+  1. Under Command override, replace `test123` with desired bucket name
+  1. Click create to run the task
+1. Under tasks, click the newly created task, from there you can click the logs tab to monitor the progress
